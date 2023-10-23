@@ -1,0 +1,118 @@
+body {
+  padding: 20px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+/*-Header-*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.headerLeft img {
+  width: 75px;
+  height: 75px;
+}
+.headerLeft span {
+  margin-left: 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.btnList {
+  display: flex;
+  justify-content: center;
+}
+.btnList button {
+  padding: 10px;
+  border: none;
+  margin-bottom: 50px;
+}
+.btnList .btn1 {
+  border-top-left-radius: 10px;
+  border-end-start-radius: 10px;
+}
+.btnList .btn2 {
+  border-radius: 0 10px 10px 0;
+}
+/**Detail Page**/
+.detail {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 20px;
+  z-index: 9999;
+  width: 33%;
+  background-color: black;
+  padding: 20px;
+  height: 95vh;
+  gap: 40px;
+  box-shadow: 2px 2px 20px #535bf2;
+}
+.detailHead {
+  display: flex;
+  flex-direction: column;
+}
+.detailId {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+.detailId button {
+  padding-right: 8px;
+  border-radius: 5px;
+  background: #007bff;
+}
+.detailBody {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+.detailBody img {
+  width: 100%;
+}
+/*-----------PAGINATE--------------*/
+.paginate {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.paginate a {
+  color: white;
+}
+.paginate li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Pasif sayfa bağlantıları için stil */
+.page-link {
+  color: white;
+}
+
+/* Aktif sayfa bağlantısı için stil */
+.active-page-link {
+  background-color: rgba(0, 119, 255, 0.404);
+  color: black !important;
+}
+.popup {
+  display: grid;
+  text-align: center;
+  gap: 10px;
+  font-weight: 700;
+}
+.popup button {
+  border: none;
+  background-color: #007bff;
+  padding: 5px;
+  border-radius: 10px;
+}
+/*-------------------------------- */
